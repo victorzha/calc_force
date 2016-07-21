@@ -1,0 +1,14 @@
+#!/bin/sh
+
+program=../program
+workdir=`pwd`
+
+cd $program
+make
+
+cd $workdir
+
+bin=../program
+
+echo "Excute ... "
+$bin/main_force input.txt
