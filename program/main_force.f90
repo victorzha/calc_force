@@ -16,6 +16,7 @@ program main_force
 	namelist /control/ if_fit, imgscale, fdata, fout
 	!----------------------------------------------------------------------------
 	!input data-frequecy shift
+	!
 	fid      = 1
 	if_fit   = .false.
 	imgscale = 3.0
